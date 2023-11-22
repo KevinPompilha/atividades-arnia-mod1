@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bloco{
+   width: 20%;
+   height: 200px; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloco1 {
+    background-color: red;
+}
+
+.bloco2 {
+    background-color: yellow;
+}
+
+.bloco3 {
+    background-color: green;
+}
+
+.bloco4 {
+    background-color: greenyellow;
+}
+
+.bloco5 {
+    background-color: purple;
+}
+
+.bloco6 {
+    background-color: rebeccapurple;
+}
+
+.bloco7 {
+    background-color: gray;
+}

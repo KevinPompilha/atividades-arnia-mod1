@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins:wght@400;700&family=Roboto:wght@300;400&family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 128px;
+    height: 38px;
+    top: 32px;
+    left: 40px;
+}
+.container1{
+   background-color: #6950a1; 
+   width: 1440px;
+   height: 301px;
+   top: -5px;
+   color: white;
+}

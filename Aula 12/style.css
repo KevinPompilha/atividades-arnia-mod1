@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: #fff2ee;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+.delivery {
+    color: orange;
+}
+
+.name {
+    font-size: 1em;
+}
+
+.description {
+    font-size: 0.75em;
+    color: #6a6a72;
+}
+
+.card {
+    display: flex;
+    width: 98%;
+    padding: 0.5em;
+    background-color: white;
+    box-shadow: 0px 1px 6px #b4b4b457;
+    border-radius: 8px;
+    gap: 8px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+.img-restaurante {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.superior {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.card-pedido {
+    width: 20%;
+    line-height: 1.25em;
+    background-color: white;
+    box-shadow: 0px 1px 6px #b4b4b457;
+    border-radius: 1.5em;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+
+.align {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pedido {
+    margin-bottom: 8px;
+    color: #6a6a72;
+    font-size: 1.5em;
+}
+
+.preco {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: orange;
+
+}
+
+.btn-pedido {
+    width: 25%;
+    height: 1.75em;
+    font-size: 1.25em;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.75em;
+    background-color: #ff8c00;
+    color: white;
+    font-weight:600;
+}
+
+.img-card {
+    border-radius: 1.25em;
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.container-conteudo{
+    border-radius: 1.5em;
+    background-color: white;
+    padding: 1.25em;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+}

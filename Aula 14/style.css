@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins:wght@300;400;700;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+table{
+    border-collapse: collapse;
+    box-shadow: 10px 10px 56px -5px rgba(0,0,0,0.74);
+}
+
+
+td{
+    padding: 8px;
+}
+
+.cabecalho th:first-child{
+        border-bottom-left-radius: 1em;
+        border-top-left-radius: 1em;
+}
+
+.cabecalho th:last-child{
+        border-bottom-right-radius: 1em;
+        border-top-right-radius: 1em;
+}
+
+
+
+thead tr:first-child{
+    background-color: #0ca2ed;  
+ }
+
+.titulo{
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+}
+
+th{
+    padding: 12px;
+ }
+
+tr:nth-child(even){
+    background-color:#fffdfd;
+}
+
+tr:nth-child(odd){
+    background-color: rgba(240, 239, 239, 0.4);
+}
+
+.valor{
+    border: 8px;
+    
+}
+
+.solicitacao{
+    text-align: center;
+}
+
+.quitada{
+    color: green;
+    background-color: rgba(169, 248, 169, 1);
+    border-radius: 8px;
+    padding: 2px;
+    text-align: center;
+}
+
+.pendente{
+    color: red;
+    background-color: rgba(247, 169, 169, 1);
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+}
+
+button{
+    margin-right: 8px;
+    padding: 2px;
+    font-size: 0.8em;
+    background-color: white;
+}
+
+.btn-valor{
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(216, 212, 212);
+    width: 100px;
+}
+
+.excluir{
+    border: 2px solid rgb(252, 104, 104);
+    border-radius: 8px;
+    padding: 0.5em;
+}
+
+.editar{
+    border: 2px solid rgb(174, 174, 253);
+    border-radius: 8px;
+    padding: 0.5em;
+}
+

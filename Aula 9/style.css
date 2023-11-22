@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+header,
+.container2,
+footer {
+    background-color: #0055aa;
+}
+
+nav,
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    padding: 30px;
+}
+
+li,
+.container2 {
+    display: inline-block;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.banner {
+    width: 100%;
+
+}
+
+.texto {
+    text-align: justify;
+    padding: 20px;
+}
+
+.container2 {
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.menu2{
+    font-size: 1.5em;
+}
+
+.submenu{
+    margin-right: 100px;
+}
+
+.container3 {
+    width: 70%;
+    margin: 80px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.obra {
+    width: 300px;
+    margin: 50px;
+    display: inline-block;
+
+}
+
+footer {
+    padding: 60px;
+    color: white;
+}
+
+.footer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.marechal, .santa-tereza, .bela-vista, .cipava, .novo-osasco, .jardim-das-flores  {
+    position: relative;
+    background-color: #0153AB;
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 0.9rem;
+}
+
+.marechal{
+    bottom: 410px;
+    left: 410px;
+    
+}
+
+.santa-tereza{
+   bottom: 410px; 
+   left: 1150px;
+}
+
+.bela-vista{
+    bottom: 410px;
+    left: 650px;
+}
+
+.cipava{
+    bottom: 110px;
+    left: 170px; 
+}
+
+.jardim-das-flores{
+    bottom: 110px;
+    left: 430px;
+}
+
+.novo-osasco{
+    bottom: 110px;
+    left: 930px;
+}
+
+
+.whatsapp {
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
