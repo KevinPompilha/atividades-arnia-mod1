@@ -1,0 +1,12 @@
+const io = require('../io/io')
+
+io.write('Informe o seu nome: ')
+const nome = io.read()
+
+let iterador = 10
+
+while (iterador < 10) {
+    io.write(nome)
+    iterador++
+}
+
