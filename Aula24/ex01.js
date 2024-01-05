@@ -4,11 +4,11 @@ const io = require('../io/io')
 
 
 function idadeEmDias(anos, meses, dias){
-    // const idadeEmDias = anos * 365 + meses + 30 + dias;
+    const diasPorAno = anos * 365
+    const diasPorMes = meses * 30
+    const resultado = diasPorAno + diasPorMes + dias
 
-    // return idadeEmDias 
-
-    return anos * 365 + meses + 30 + dias;
+    return resultado
 }
 
 io.write('Escreva quantos anos você tem: ')

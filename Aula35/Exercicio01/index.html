@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Produto</title>
+
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Cadastro de Produto</h1>
+    </div>
+    <div class="center">
+        <form class="formulario" id="formulario">
+            <section class="section">
+                <label for="codigo" id="codigo">Código</label>
+                <input type="text" name="codigo" required />
+            </section>
+            <section class="section">
+                <label for="nome" id="nome">Nome</label>
+                <input type="text" name="nome" required />
+            </section>
+            <section class="section">
+                <label for="categoria" id="categoria">Categoria</label>
+                <select id="categoria" name="categoria">
+                    <option value="">Escolha um alimento</option>
+                    <option value="alimento">Alimento</option>
+                    <option value="limpeza">Limpeza</option>
+                    <option value="higiene">Higiene</option>
+                </select>
+            </section>
+            <section class="section">
+                <label for="preco" id="preco">Preço</label>
+                <input type="number" name="preco" required />
+            </section>
+
+            <section class="section">
+                <label for="quantidade" id="quantidade">Quantidade</label>
+                <input type="text" name="quantidade" required />
+            </section>
+            <div class="btn">
+                <button class="btn-cadastrar" type="submit">Cadastrar</button>
+            </div>
+        </form>
+       
+    </div>
+    <div class="card">
+        <div class="card-codigo"></div>
+        <div class="card-nome"></div>
+        <div class="card-categoria"></div>
+        <div class="card-preco"></div>
+        <div class="card-quantidade"></div>
+        <div class="card-total"></div>
+    </div>
+</body>
+
+</html>

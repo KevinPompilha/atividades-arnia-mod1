@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+body {
+    background-color: #F5EFF9;
+
+}
+
+.btn {
+    display: inline-block;
+}
+
+.month,
+.annualy {
+    font-weight: 400;
+    display: inline-block;
+}
+
+.card > p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.card {
+    font-weight: 300;
+    width: 20%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 44px 0px rgba(0,0,0,0.4);
+}
+
+
+
+.bussiness{
+    background-color: #dcc9f5;
+}
+.price{
+    font-size: 2em;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    display: inline-block;
+ 
+}
+
+.popular{
+    float: right;
+    font-weight: lighter;
+    margin-top: -8px;
+    background-color: #5C16B0;
+    color: white;
+    width: 35%;
+    height: 5%;
+    border: none;
+    border-radius: 80px;
+}
+
+
+.main-title {
+    font-size: 3.5em;
+    text-align: center;
+    color: #8E8BD1;
+}
+
+.title-card {
+    font-size: 1.5em;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+span{
+    color:rgb(109, 107, 107);
+}
+
+.plans {
+    color: black;
+}
+
+.subtitle {
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+}
+
+.align-btn-price{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.section {
+    justify-content: center;
+    padding: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-hobby {
+    margin-bottom: 15px;
+    background-color: #8D6DCE;
+    width: 80%;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.btn-end {
+    display: flex;
+    justify-content: center;
+   
+}

@@ -24,17 +24,48 @@
 // { nome: 'Pedro', idade: 18, desconto: 0.1 },
 // { nome: 'Ana', idade: 21, desconto: 0.05 }
 
-function aplicarDesconto(estudandes, callback){
-    return estudantes.map(callback)
+// function aplicarDesconto(estudandes, callback){
+//     return estudantes.map(callback)
     
-}
+// }
 
 
 
+// const estudantes = [
+// { nome: 'João', idade: 20 },
+// { nome: 'Maria', idade: 22 },
+// { nome: 'Pedro', idade: 18 },
+// { nome: 'Ana', idade: 21 }
+// ]
+
+// const calcularDesconto = (estudante) => {
+//     if(estudante.idade < 20){
+//         estudante.desconto = 0.1
+//     }else{
+//         estudante.desconto = 0.05
+//     }
+//     return estudante
+// }
+
+// const estudantesComDesconto = aplicarDesconto(estudantes, calcularDesconto)
+// console.log(estudantesComDesconto)
 
 const estudantes = [
-{ nome: 'João', idade: 20 },
-{ nome: 'Maria', idade: 22 },
-{ nome: 'Pedro', idade: 18 },
-{ nome: 'Ana', idade: 21 }
-]
+    { nome: 'João', idade: 20 },
+    { nome: 'Maria', idade: 22 },
+    { nome: 'Pedro', idade: 18 },
+    { nome: 'Ana', idade: 21 }
+    ]
+
+const calcularDesconto = (idade) => {
+    return idade < 20 ? 0.1 : 0.05
+}
+
+const aplicarDesconto = (estudantes) => {
+    return estudantes.map(estudante =>{
+        const desconto = calcularDesconto(estudante.idade)
+        return {...estudante, desconto}
+    }) 
+}
+const estudantesComDesconto = aplicarDesconto(estudantes)
+console.log(estudantesComDesconto)
