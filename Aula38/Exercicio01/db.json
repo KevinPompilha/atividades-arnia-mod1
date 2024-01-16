@@ -1,0 +1,21 @@
+{
+    "posts": [
+        {
+            "id":1,
+            "titulo":"Presidente do Equador declara 'conflito armado interno",
+            "autor":"Daniel Bla",
+            "imagem":"https://s2-g1.glbimg.com/AxAvEkHlL4Ydo9gjh6mATVzis4Y=/0x0:7157x4771/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/X/R/y9AJE8QCqEBNX3AHF64w/ap24009565450190.jpg",
+            "texto" :"O país vive uma crise de segurança há dois dias. Noboa decretou na segunda (8) estado de exceção, depois da fuga da prisão de um criminoso conhecido como Fito, chefe do grupo Los Choneros. O decreto segue em vigor e estabelece toque de recolher entre 23h e 5h."
+        },
+        {
+            
+            "id":2,
+            "titulo":"Dudu Voltando",
+            "autor":"Daniel Bla",
+            "imagem":"https://s2-ge.glbimg.com/0_l3iLsIyfA2M4IZlmoxqtZrmyo=/0x0:1305x1500/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/Q/B/oHZEPoRY2ipuKijqr7nw/53450273322-fd2c7b8e76-o-1.jpg",
+            "texto" :"O atacante Dudu se mostrou otimista com recuperação das lesões no menisco e ruptura de ligamento cruzado anterior do joelho direito, sofrida em agosto do ano passado, na partida do Palmeiras contra o Vasco, pelo Campeonato Brasileiro."
+        }
+        
+    ],
+    "users": []
+}

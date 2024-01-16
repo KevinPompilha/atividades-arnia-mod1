@@ -11,7 +11,9 @@ const alterarPlano = () =>{
     const alterarPrecoEntreprise = document.querySelector('#entreprise')
     alterarPrecoEntreprise.innerHTML = '$200'
 
-    const anual = document.querySelector('.anual')
+    const anual = document.querySelectorAll('.anual')
     anual.innerHTML = '/ per year'
+
+    console.log(anual)
 
 }

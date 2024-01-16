@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Open+Sans:wght@300&family=Poppins:wght@300;400;700;800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -11,43 +11,45 @@
     flex-direction: column;
 }
 
-.formulario{
-    background-color: white ;
+.formulario {
+    background-color: white;
     width: 25%;
+    min-width: 400px;
     height: 60%;
     padding: 30px;
     box-shadow: 0px 1px 6px 0px #000000;
     border-radius: 25px;
 }
 
-label{
+label {
     margin-top: 15px;
 }
 
-input, select{
+input,
+select {
     border-radius: 12px;
     height: 30px;
     border: 1px solid gray
 }
 
-.titulo{
+.titulo {
     margin-top: 25px;
     display: flex;
     justify-content: center;
 }
 
-.center{
+.center {
     margin-top: 25px;
     display: flex;
     justify-content: center;
 }
 
-.btn{
+.btn {
     display: flex;
     justify-content: center;
 }
 
-.btn-cadastrar{
+.btn-cadastrar {
     margin-top: 10px;
     background-color: #00a7e9;
     color: white;
@@ -57,10 +59,9 @@ input, select{
     border-radius: 25px;
 }
 
-.card{
+.card {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-

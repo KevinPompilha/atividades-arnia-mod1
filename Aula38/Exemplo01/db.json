@@ -1,0 +1,20 @@
+{
+    "posts": [
+        {
+            "id":1,
+            "title":"Meu primeiro post",
+            "descricao":"Este é o meu primeiro post em JSON API"
+        },
+        {
+            "id":2,
+            "title":"Meu primeiro post",
+            "descricao":"Este é o meu primeiro post em JSON API"
+        },
+        {
+            "id":3,
+            "title":"Meu primeiro post",
+            "descricao":"Este é o meu primeiro post em JSON API"
+        }
+    ],
+    "users": []
+}

@@ -9,7 +9,8 @@ formulario.addEventListener('submit', (evento) =>{
     const preco = formulario.elements['preco'].value
     const quantidade = formulario.elements['quantidade'].value
 
-    const total = parseInt(preco.value) * parseInt(quantidade.value)
+    console.log(preco * quantidade)
+
 
     const card = document.querySelector('.card')
     const cardNome = document.querySelector('.card-nome')
@@ -18,12 +19,28 @@ formulario.addEventListener('submit', (evento) =>{
     const cardQuantidade = document.querySelector('.card-quantidade')
     const cardTotal = document.querySelector('.card-total')
 
-    card.innerHTML = `${codigo} - ${nome}
-    ${categoria}
-    R$ ${preco}
-    ${quantidade}
-    ${total}
+    card.innerHTML = 
     `
+    <div id="produto">#${codigo} ${nome}</div>
+    <div id="item">
+        <div>Categoria</div>
+        <div class="categoria">${categoria}</div>
+    </div>
+    <div id="item">
+        <div>Preço</div>
+        <div class="preco">R$:${preco}</div>
+    </div>
+    <div id="item">
+        <div>Quantidade</div>
+        <div class="quantidade">${quantidade}</div>
+    </div>
+    <h2 id="preco">${preco * quantidade}</h2>
+    `
+
+    
+
+    
+    
     // cardNome.innerHTML = ``
     // cardCategoria.innerHTML = ``
     // cardPreco.innerHTML = ``
