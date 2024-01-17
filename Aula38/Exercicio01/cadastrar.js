@@ -14,9 +14,9 @@ const cadastrarNoticia = async (objetoNoticia) => {
 formulario.addEventListener('submit', async(evento) =>{
     evento.preventDefault()
     const titulo = formulario.elements['titulo'].value
-    const autor = autor.elements['autor'].value
-    const imagem = imagem.elements['img'].value
-    const texto = texto.elements['texto'].value
+    const autor = formulario.elements['autor'].value
+    const imagem = formulario.elements['img'].value
+    const texto = formulario.elements['texto'].value
 
     const objetoNoticia = {
         titulo,
@@ -28,5 +28,5 @@ formulario.addEventListener('submit', async(evento) =>{
     await cadastrarNoticia(objetoNoticia)
     console.log(objetoNoticia)
 
-    // window.location = 'index.html'
+    window.location = '../index.html'
 })

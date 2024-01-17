@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar notícia</title>
+    <script src="../editar.js" defer></script>
     <link rel="stylesheet" href="../style.css">
-    <script src="../cadastrar.js" defer></script>
-    <title>Cadastrar Notícia</title>
 </head>
 
 <body>
     <header>
         <img src="../imagens/image 1.png" alt="logo-arnia">
-        <p>Nova notícia</p>
+        <p>Editar notícia</p>
         <a class="voltar" href="../index.html">Voltar</a>
     </header>
-    <form class="form">
+    
+    <form id="form" class="form">
         <p>Título</p>
         <input name="titulo" id="titulo" type="text" />
         <p>Autor</p>
@@ -23,8 +24,8 @@
         <p>Imagem de destaque</p>
         <input name="img" id="img" type="text" />
         <p>Texto</p>
-        <textarea name="texto" id="text" cols="60" rows="10"></textarea>
-        <button type="submit">Enviar</button>
+        <textarea name="texto" id="texto" cols="60" rows="10"></textarea>
+        <button>Alterar</button>
     </form>
 </body>
 
