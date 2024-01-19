@@ -118,9 +118,14 @@ h1{
     margin: 60px auto;
 }
 
+.section{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
 label {
     margin-bottom: 8px;
-    text-align: left
+    display: block;
 }
 
 input,
@@ -181,7 +186,7 @@ span {
 }
 
 .btn-salvar {
-    width: 60%;
+    width: 80%;
     border-radius: 25px;
     padding: 5px;
     margin-top: 20px;
