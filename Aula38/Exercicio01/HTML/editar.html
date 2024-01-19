@@ -5,27 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar notícia</title>
-    <script src="../editar.js" defer></script>
-    <link rel="stylesheet" href="../style.css">
+    <script src="../JS/editar.js" defer></script>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
     <header>
         <img src="../imagens/image 1.png" alt="logo-arnia">
-        <p>Editar notícia</p>
+        <p class="titulo-esportes">Editar notícia</p>
         <a class="voltar" href="../index.html">Voltar</a>
     </header>
-    
+
     <form id="form" class="form">
-        <p>Título</p>
-        <input name="titulo" id="titulo" type="text" />
-        <p>Autor</p>
-        <input name="autor" id="autor" type="text" />
-        <p>Imagem de destaque</p>
-        <input name="img" id="img" type="text" />
-        <p>Texto</p>
-        <textarea name="texto" id="texto" cols="60" rows="10"></textarea>
-        <button>Alterar</button>
+            <label>Título</label>
+            <input name="titulo" id="titulo" type="text" />
+            <label>Autor</label>
+            <input name="autor" id="autor" type="text" />
+            <label>Imagem de destaque</label>
+            <input name="img" id="img" type="text" />
+            <label>Texto</label>
+            <textarea name="texto" id="texto"></textarea>
+            <button class="btn-salvar" type="submit">Alterar</button>
     </form>
 </body>
 

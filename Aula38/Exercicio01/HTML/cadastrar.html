@@ -4,27 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <script src="../cadastrar.js" defer></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/cadastrar.js" defer></script>
     <title>Cadastrar Notícia</title>
 </head>
 
 <body>
     <header>
         <img src="../imagens/image 1.png" alt="logo-arnia">
-        <p>Nova notícia</p>
+        <p class="titulo-esportes">Nova notícia</p>
         <a class="voltar" href="../index.html">Voltar</a>
     </header>
     <form class="form">
-        <p>Título</p>
+        <label>Título</label>
         <input name="titulo" id="titulo" type="text" />
-        <p>Autor</p>
+        <label>Autor</label>
         <input name="autor" id="autor" type="text" />
-        <p>Imagem de destaque</p>
+        <label>Imagem de destaque</label>
         <input name="img" id="img" type="text" />
-        <p>Texto</p>
-        <textarea name="texto" id="text" cols="60" rows="10"></textarea>
-        <button type="submit">Enviar</button>
+        <label>Texto</label>
+        <textarea name="texto" id="text"></textarea>
+        <button class="btn-salvar" type="submit">Salvar</button>
     </form>
 </body>
 

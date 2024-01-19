@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.img {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+header {
+    padding: 8px;
+    width: 100%;
+    background-color: #6950A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: #6950A1;
+    margin-bottom: 10px;
+}
+
+.btn-news {
+    width: 159px;
+    height: 36px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    background-color: #FBB04D;
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.24);
+
+}
+
+.voltar {
+    border: none;
+    margin-right: 20px;
+    color: white;
+}
+
+
+
+.container{
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid #6950A1;
+
+}
+
+.titulo-esportes{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.titulo {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #6950A1;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.autor {
+    margin-left: 20px;
+    font-size: 1.0rem;
+}
+
+.img {
+    width: 380px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.texto {
+    text-align: justify;
+    display: inline-block;
+    width: 480px;
+    font-size: 14px;
+    line-height: 21px;
+    color: black;
+}
+
+.container-texto {
+    display: flex;
+    align-items: center;    
+    gap: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    max-width: 800px;
+    margin: 60px auto;
+}
+
+label {
+    margin-bottom: 8px;
+    text-align: left
+}
+
+input,
+textarea {
+    margin-top: 5px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 25px;
+    padding: 5px;
+    border: 1px solid #6950A1;
+}
+
+
+textarea {
+    resize: none;
+    width: 669px;
+    height: 304px;
+    border: 1px solid #6950A1;
+    border-radius: 25px;
+}
+
+span {
+    color: #6950A1;
+}
+
+.btn-edit,
+.btn-editar,
+.btn-salvar {
+    border: none;
+}
+
+.btn-edit {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+
+.btn-excluir,
+.btn-editar {
+    border-radius: 8px;
+    padding: 2px;
+    width: 58px;
+    height: 26px;
+    font-size: 12px;
+}
+
+.btn-excluir {
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+.btn-editar {
+    background-color: #6950A1;
+    color: white;
+}
+
+.btn-salvar {
+    width: 60%;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: #6950A1;
+    color: white;
+}

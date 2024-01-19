@@ -28,7 +28,7 @@ formulario.addEventListener('submit', async (evento) => {
         texto
     }
     //chamar a função que edita o livro na API
-    await editarNoticia(objetoNoticia)
+    await editarNoticia(id, objetoNoticia)
     console.log(objetoNoticia)
 
     //redirecionar para a tela de listagem 
@@ -38,29 +38,29 @@ formulario.addEventListener('submit', async (evento) => {
 const getNoticia = async (id) => {
     const request = await fetch(`http://localhost:3000/posts/${id}`)
     const noticia = await request.json()
-    
+
     return noticia
 }
 //carregar os dados no formulário 
 const carregarNoticiaFormulário = (noticia) => {
     document.getElementById('titulo').value = noticia.titulo
     document.getElementById('autor').value = noticia.autor
-    document.getElementById('img').value= noticia.img
+    document.getElementById('img').value = noticia.img
     document.getElementById('texto').value = noticia.texto
 }
-const carregarDados = async () =>{
+const carregarDados = async () => {
     //1º recupera parâmetros da URL (formato de string)
     const parametros = window.location.search
     //transforma os parametros para o formato de objeto da classe URLSearchParams
     const objetoParametros = new URLSearchParams(parametros)
     //acessa o parâmetro desejado (id)
     id = objetoParametros.get('id')
-    
+
 
     //chama a função para buscar a notícia na API 
     const noticia = await getNoticia(id)
 
     carregarNoticiaFormulário(noticia)
 }
- carregarDados()
+carregarDados()
 
